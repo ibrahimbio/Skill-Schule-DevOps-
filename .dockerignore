@@ -1,4 +1,18 @@
-node_modules
-npm-debug.log
-.git
-.github
+# Dependencies 
+node_modules npm-debug.log*  
+# Git 
+.git .gitignore .github  
+# Environment files 
+.env .env.local .env.*.local  
+# Logs 
+logs *.log  
+# Runtime data 
+pids *.pid *.seed *.pid.lock  
+# Coverage and test files 
+coverage .coverage .nyc_output  
+# IDE files 
+.vscode .idea *.swp *.swo  
+# OS files 
+.DS_Store Thumbs.db  
+# Documentation 
+README.md CHANGELOG.md
